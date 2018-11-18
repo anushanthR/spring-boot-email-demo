@@ -6,6 +6,7 @@ public class EmailDto {
 	String message;
 	String subject;
 	String path;
+	String fileName;
 	
 	public String getEmail() {
 		return email;
@@ -30,6 +31,12 @@ public class EmailDto {
 	}
 	public void setPath(String path) {
 		this.path = path;
+	}
+	public String getFileName() {
+		return fileName;
+	}
+	public void setFileName(String fileName) {
+		this.fileName = fileName;
 	}
 	
 	
